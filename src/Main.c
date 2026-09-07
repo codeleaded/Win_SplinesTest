@@ -8,8 +8,8 @@ Vec2* pSelected = NULL;
 
 float Ship0 = 0.0f;
 float Ship1 = 0.0f;
-float Ship0_speed = 1.0f;
-float Ship1_speed = 1.0f;
+float Ship0_speed = 0.1f;
+float Ship1_speed = 0.1f;
 
 void Setup(AlxWindow* w){
     tv = TransformedView_Make(
